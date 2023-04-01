@@ -399,7 +399,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
+    lel = await message.reply("🔄 **Processing BABY🥀❤️‍🔥")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -449,7 +449,7 @@ async def play(_, message: Message):
         return     
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
-    await lel.edit("🔎 **Finding Via ✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯**")
+    await lel.edit("🔎 **Finding Via ")
     sender_id = message.from_user.id
     user_id = message.from_user.id
     sender_name = message.from_user.first_name
@@ -460,7 +460,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
+    await lel.edit("🎵 **Processing BABY🥀❤️‍🔥")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -491,7 +491,7 @@ async def play(_, message: Message):
                 [
                    InlineKeyboardButton(
                        text="⭐ Support ⭐",
-                       url='https://t.me/LoveIsAslowPoision')
+                       url='https://t.me/Freaky_Support')
                 ],
                 [       
                     InlineKeyboardButton(
@@ -532,7 +532,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** song requested by {} via ෴ @LoveIsAslowPoision෴ ".format(
+        caption="▶️ **Playing** song requested by {} ".format(
         message.from_user.mention()
         ),
     )
@@ -547,13 +547,13 @@ async def play(_, message: Message):
 )
 async def deezer(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
+    lel = await message_.reply("🔄 **Processing BABY🥀❤️‍🔥")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "෴𝙰𝚍𝚒𝚝𝚢𝚊෴"
+        user.first_name =  "lover_jerry"
     usar = user
     wew = usar.id
     try:
@@ -623,7 +623,7 @@ async def deezer(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/LoveIsAslowPoision')
+                   url='https://t.me/Freaky_Support')
              ],
              [       
                  InlineKeyboardButton(
@@ -645,9 +645,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f" #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯=▶️ Playing.....")
+        await res.edit_text("▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -676,13 +676,13 @@ async def deezer(client: Client, message_: Message):
 )
 async def jiosaavn(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing Via ✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯=**")
+    lel = await message_.reply("🔄 **Processing BABY🥀❤️‍🔥")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "෴𝙰𝚍𝚒𝚝𝚢𝚊෴"
+        user.first_name =  "lover_jerry"
     usar = user
     wew = usar.id
     try:
@@ -756,7 +756,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/LoveIsAslowPoision')
+                   url='https://t.me/Freaky_Support')
              ],
              [       
                InlineKeyboardButton(
@@ -780,12 +780,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯=#️⃣ Queued at position {position}",
+            caption=f"#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯=▶️ Playing.....")
+        await res.edit_text("✯▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
