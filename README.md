@@ -1,5 +1,5 @@
-# ෴𝙰𝚍𝚒𝚝𝚢𝚊෴ TELEGRAM VC MUSIC BOT 
-[![෴𝙰𝚍𝚒𝚝𝚢𝚊෴ logo](https://telegra.ph/file/6063c43692db2b1b72b22.jpg)](https://t.me/addict_aditya)
+#  MAHI_X_MUSIC
+[![MAHI logo](https://graph.org/file/e4eff1b3d9052002cba67.jpg)](https://t.me/lover_jerry)
 
 
 -It is inspired from su music project and hamkercat's telegram voice bot.
